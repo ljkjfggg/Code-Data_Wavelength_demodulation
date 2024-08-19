@@ -1,0 +1,23 @@
+=========================================================
+This code is a supplement to the paper 
+
+Wavelength Demodulation Method for FBG Overlapping Spectrum Utilizing Bidirectional Long Short-Term Memory Neural Network. Measurement, 2024
+=========================================================
+
+"LSTM_ModelTrain" is used to train the LSTM prediction model.
+
+"GRU_ModelTrain" is used to train the GRU prediction model.
+
+"pca" and "Scaler" are models saved during the training process of the BiLSTM model 
+that are used for dimensionality reduction and normalization of the training data set.
+
+"ypred" is the predicted wavelength esults of the trained BiLSTM model.
+
+"Testdata_Verification"  is used for the validation of experimental data.
+
+The program is written in Matlab 2021 and Python, with TensorFlow version 2.6.0 corresponding to the Python code.
+
+=========================================================
+The code may not be used for commercial purposes without permission. If using this code for sustainable research and paper publication, please cite: 
+Wavelength Demodulation Method for FBG Overlapping Spectrum Utilizing Bidirectional Long Short-Term Memory Neural Network. Measurement, 2024.
+=========================================================

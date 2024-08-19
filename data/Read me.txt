@@ -1,0 +1,20 @@
+"LS" is the spectral data of the light source in the experiment.
+
+"OS" is the spectral data of the overlapping spectra in the experiment.
+
+"Ra" is the reflectance of each FBG.
+
+"Wa" is the wavelength of each FBG.
+
+"FWHM" is the FWHM of each FBG.
+
+Please run "Generate_traindata" to generate training data.
+
+The function "sgwc" is used to calculate all possible wavelength combinations.
+
+The function "AS_calculate" is used to calculate spectral overlap data for different wavelength combinations.
+
+Since the training dataset is large (approximately 15 GB), the folder does not contain the dataset data used in the paper. 
+You can generate your own training data using the "Generate_traindata" program as needed, 
+or contact the author to request the training dataset.
+
